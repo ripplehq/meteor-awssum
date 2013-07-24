@@ -8,5 +8,6 @@ Npm.depends({
 });
 
 Package.on_use(function (api) {
+  api.exportSymbol('AWSSum', 'server');
   api.add_files('server.js', 'server');
 });
