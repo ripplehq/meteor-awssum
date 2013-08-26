@@ -13,7 +13,7 @@
           "version": "0.1.14",
           "dependencies": {
             "sax": {
-              "version": "0.5.4"
+              "version": "0.5.5"
             }
           }
         },
