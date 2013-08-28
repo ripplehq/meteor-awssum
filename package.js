@@ -8,5 +8,7 @@ Npm.depends({
 });
 
 Package.on_use(function (api) {
+  api.use('underscore', 'server');
+  api.export('AWSSum', 'server');
   api.add_files('server.js', 'server');
 });
